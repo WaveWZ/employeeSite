@@ -1,0 +1,78 @@
+.employee-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+
+}
+
+.employee-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    display: flex;
+    padding: 20px;
+    width: 70%;
+    max-width: 800px;
+    align-items: center;
+}
+
+.employee-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 30px;
+    border: 4px solid #ddd;
+    
+}
+
+.employee-details {
+    flex: 1;
+}
+
+
+.employee-name {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.employee-job {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.employee-desc {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.employee-email {
+    font-size: 14px;
+    color: #777;
+}
+
+
+strong {
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    
+    
+    .employee-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .employee-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}

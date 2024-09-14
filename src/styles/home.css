@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(7, 9, 64);
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#main {
+    padding: 2em;
+    text-align: center;
+}
+
+.main-heading {
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 1em;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 3em;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.4em;
+}
+
+.card h3 {
+    font-size: 1.1em;
+    color: gold;
+}
+
+.our_team {
+    margin-top: 2.1em;
+    text-align: center;
+    color: white;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+.member {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.member h4 {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+.member h5 {
+    font-size: 1em;
+    color: lightgray;
+}
+
+.member-image {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: lightgray;
+}
+
+.software-image {
+    margin-top: 2em;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
